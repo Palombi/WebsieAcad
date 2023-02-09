@@ -1,0 +1,28 @@
+.card-content {
+	max-height: 75%;
+	overflow: auto;
+}
+
+.card-content::-webkit-scrollbar {
+	display: none;
+}
+
+.card-body {
+	padding: 10px;
+	max-height: 80%;
+}
+
+.card-content-task {
+	padding: 2px;
+	height: 65%;
+	overflow: auto;
+}
+
+.card-content-task::-webkit-scrollbar {
+	display: none;
+}
+
+.card-body-task {
+	padding: 5px;
+	height: 80%;
+}
